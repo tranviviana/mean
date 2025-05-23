@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import { Button } from "@chakra-ui/react"
+import { Box } from '@chakra-ui/react'
+import { Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import CreatePage from './pages/CreatePage'
+import Navbar from './components/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-     <Button>
-      Hello
-     </Button>
-    </>
+    <div>
+      <h1>TEST TEST</h1>
+    </div>
   )
 }
 
